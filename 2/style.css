@@ -1,0 +1,14 @@
+#updateButton {
+    position: relative;
+    left:40%;
+    font-size: 20px;
+}
+div{
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    border: 3px solid red; 
+}
+p{
+    margin: 5px auto;
+    text-align: justify;
+}

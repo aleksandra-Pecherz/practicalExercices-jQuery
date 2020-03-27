@@ -1,0 +1,27 @@
+<!--
+1.Create a web page that uses jQuery
+2.Include the latest version of jQuery
+3.Add a Document Ready event that outputs "Started" to the console
+4.Add an HTML paragraph with id "page_output"
+5.Create a button and add a click event to the button
+6.When the click event fires, update the text of the paragraph "page_output" to display "Welcome"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 1</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+    function runPage(){
+        console.log("Started");
+        $("#my-button").click(()=>$("#page_output").text("WELCOME"));
+    }
+    $(document).ready(runPage);
+        </script>
+</head>
+<body>
+    <p id="page_output">My paragraph element</p>
+    <button id="my-button">Start</button>
+</body>
+</html>

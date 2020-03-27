@@ -1,0 +1,3 @@
+{
+    "body": "1.Manipulate an element using AJAX 2.Create a web page and a file that will act as a response for an AJAX request 3.Add a paragraph element and button to the web page 4.On clicking the paragraph element, change the button text to 'Click here to update' 5.Create a button fire event that will make an AJAX request (Display the result in the paragraph element)"
+}

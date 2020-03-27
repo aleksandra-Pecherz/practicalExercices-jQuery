@@ -1,0 +1,14 @@
+input{
+    display: inline-block;
+    width: 25%;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    margin: 10px 10px auto;
+    
+}
+
+.unselected{
+    border: 2px solid red; 
+}
